@@ -28,3 +28,6 @@
 - Estação de inverno reduz quase totalmente as vendas.
 - Ameaças a praia podem atingir diretamente a empresa.
 
+## Gráfico
+
+<img width="100%" src="images/image.jpg">

@@ -2,7 +2,7 @@
 
 **De:** Fernando Petri <br>
 **RA:** 20240770 <br>
-**Data:** 22/02/2024 <br>
+**Data:** 26/02/2024 <br>
 **Professor:** Raul <br>
 
 ## 1. Qual importancia da informação pra sociedade.
@@ -27,4 +27,4 @@ O conceito de Integridade afirma que uma informação **não deve ser alterada, 
 
 ### Disponibilidade
 
-O conceito de Disponibilidade afirma que uma informação deve **estar disponível para um usuário no momento em que o mesmo necessita dela**. Lembrando que este conceito ainda deve respeitar o conceito de confidencialidade.
+O conceito de Disponibilidade afirma que uma informação deve **estar disponível para um usuário no momento em que o mesmo necessita dela**. Lembrando que este conceito ainda deve respeitar o conceito de confidencialidade. Podemos encontrar vários exemplos em nosso cotidiano, especialmente em sites governamentais onde certas informações são de **disponibilidade obrigatória e possuem um grande volume de acesso, mas que devem sempre estar disponíveis**.
