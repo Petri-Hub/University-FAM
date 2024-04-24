@@ -1,0 +1,124 @@
+html{
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: min-content min-content 1fr;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.header{
+    height: 15vh;
+    display: grid;
+    align-items: center;
+    grid-template-columns: min-content 1fr;
+}
+
+.header__title{
+    padding: 0 2rem;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: center;
+    margin: 0;
+}
+
+.header__products {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.header__products__item {
+    font-size: 20px;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+}
+
+.main__heading{
+    width: 100%;
+    padding: 1.5rem 0;
+    font-size: 20px;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.main__products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem;
+    column-gap: 0.5rem;
+    background-color: black;
+}
+
+.main__products__item{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1/1;
+    background-color: white;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+
+.footer__ad{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    row-gap: 1rem;
+    align-content: center;
+}
+
+.footer__ad__image{
+    width: 50%;
+}
+
+.footer__ad__title{
+    margin: 0;
+    font-size: 26px;
+}
+
+.footer__contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+}
+
+.footer__contact__details p{
+    margin: 0;
+    font-size: 26px;
+    margin: 0.5rem 0;
+}
+
+.footer__contact__image{
+    width: 70px;
+    height: 70px;
+}
