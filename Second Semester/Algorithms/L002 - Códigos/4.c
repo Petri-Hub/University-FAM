@@ -34,6 +34,6 @@ int main()
    float difference = newSalary - salary;
 
    printf("\nSalário atual: %d", salary);
-   printf("\nSalário novo: %2.f", newSalary);
-   printf("\nSalário atual: %2.f", difference);
+   printf("\nSalário novo: %.2f", newSalary);
+   printf("\nSalário atual: %.2f", difference);
 }
