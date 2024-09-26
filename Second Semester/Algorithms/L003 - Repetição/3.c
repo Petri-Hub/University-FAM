@@ -1,23 +1,25 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
-    int numbersAmount;
-    int sum;
+   int numbersAmount;
+   float sum = 0;
 
-    printf("Digite quantos números você quer calcular a média: ");
-    scanf("%d", &numbersAmount);
+   printf("Digite quantos números você quer calcular a média: ");
+   scanf("%d", &numbersAmount);
 
-    for(int i = 0; i < numbersAmount; i++){
-        int number;
+   for (int i = 0; i < numbersAmount; i++)
+   {
+      float number;
 
-        printf("Digite o %dº número: ");
-        scanf("%f", &number);
+      printf("Digite o %dº número: ", i + 1);
+      scanf("%f", &number);
 
-        sum += number;
-    }
+      sum += number;
+   }
 
-    printf("A média destes valores é: %.2f", sum / numbersAmount);
+   printf("A média destes valores é: %.2f", sum / numbersAmount);
 
-    return 0;
+   return 0;
 }

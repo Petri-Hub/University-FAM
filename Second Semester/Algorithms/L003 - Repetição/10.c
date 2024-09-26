@@ -1,15 +1,17 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(){
-    int number = +INFINITY;
+int main()
+{
+   float number = +INFINITY;
 
-    while(number > 1){
-        printf("Digite um número: ");
-        scanf("%d", &number);
-    }
+   while (number > 1)
+   {
+      printf("Digite um número: ");
+      scanf("%f", &number);
+   }
 
-    printf("Você digitou um número menor que 1");
+   printf("\nVocê digitou um número menor que 1");
 
-    return 0;
+   return 0;
 }

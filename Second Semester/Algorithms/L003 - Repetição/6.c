@@ -1,26 +1,29 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
-    int salariesAmount = 15;
-    int salaryMargin = 1500;
-    int salariesBiggerThanMargin = 0;
+   int salariesAmount = 15;
+   int salaryMargin = 1500;
+   int salariesBiggerThanMargin = 0;
 
-    for(int i = 0; i < salariesAmount; i++){
-        float salary = 0;
+   for (int i = 0; i < salariesAmount; i++)
+   {
+      float salary = 0;
 
-        printf("Digite o valor do %dº salário: ", i + 1);
-        scanf("%f", &salary);
+      printf("Digite o valor do %dº salário: ", i + 1);
+      scanf("%f", &salary);
 
-        if(salary >= salaryMargin){
-            salariesBiggerThanMargin++;
-        }
-    }
+      if (salary >= salaryMargin)
+      {
+         salariesBiggerThanMargin++;
+      }
+   }
 
-    int salariesOverMarginPercentage = (salariesBiggerThanMargin / salariesAmount) * 100;
+   float salariesOverMarginPercentage = ((float)salariesBiggerThanMargin / (float)salariesAmount) * 100;
 
-    printf("Salários: %d", salariesAmount);
-    printf("Porcentagem de salários maior que %d: %.2f\%", salariesAmount, salariesOverMarginPercentage);
+   printf("\nSalários: %d", salariesAmount);
+   printf("\nPorcentagem de salários maior que %d: %.2f%%", salaryMargin, salariesOverMarginPercentage);
 
-    return 0;
+   return 0;
 }
